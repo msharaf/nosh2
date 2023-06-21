@@ -890,7 +890,7 @@ function getCurrentTime() {
 
 function typelabel (cellvalue, options, rowObject){
 	if (cellvalue == 'standardmedical') {
-		return 'Standard Medical Visit V1';
+		return 'Physical Therapy Daily Treatment Note';
 	}
 	if (cellvalue == 'standardmedical1') {
 		return 'Standard Medical Visit V2';
@@ -899,10 +899,10 @@ function typelabel (cellvalue, options, rowObject){
 		return 'Clinical Support Visit';
 	}
 	if (cellvalue == 'standardpsych') {
-		return 'Annual Psychiatric Evaluation';
+		return 'Physical Therapy Initial Evaluation';
 	}
 	if (cellvalue == 'standardpsych1') {
-		return 'Psychiatric Encounter';
+		return 'Physical Therapy Plan of Care/Progress Note';
 	}
 	if (cellvalue == 'standardmtm') {
 		return 'MTM Encounter';
