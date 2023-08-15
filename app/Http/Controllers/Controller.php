@@ -2113,7 +2113,7 @@ class Controller extends BaseController
     protected function array_pos()
     {
         $return = [
-            '1' => 'Pharmacy',
+            '1' => 'Outpatient Physical Therapy Clinic',
             '3' => 'School',
             '4' => 'Homeless Shelter',
             '5' => 'Indian Health Service - Free-standing Facility',
